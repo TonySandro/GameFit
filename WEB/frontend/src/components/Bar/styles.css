@@ -1,0 +1,43 @@
+.menu-container {
+  position: fixed;
+  
+  margin: 0;
+  background-color: #FFFFFF;
+  width: 20%;
+  height: 100%;
+  border-right: 1.8px solid#dfe4ea;
+}
+
+.menu-top {
+  color: #3742fa;
+  font-weight: bolder;
+  display: flex;
+  flex-flow: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  border-bottom: 1.8px solid #dfe4ea;
+}
+
+  .menu-body {
+  padding-top: 30px;
+  }
+  
+  .menu-body ul {
+    padding: 0 0 0 0;
+    display: flex;
+    flex-flow: column;
+    padding-left: 30px;
+    text-align: start;
+  }
+
+  .menu-body ul a{
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 25px;
+    color: #000;
+  }
